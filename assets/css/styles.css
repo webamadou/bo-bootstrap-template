@@ -1,18 +1,37 @@
+
+*:focus,
+button:focus, 
+.btn-check:focus+.btn, 
+.btn:focus
+{
+    outline: none;
+    box-shadow: none;
+}
 :root {
     --purple: #3F51B5;
     --pink: #EA118D;
-    --gray1: #f3f3f3; 
-    --gray2: #E5E5E5; 
+    --gray1: #f3f3f3;
+    --gray2: #E5E5E5;
+    --gray3: #838383;
+    --gray4: #c4c4c4;
 }
 body{
     font-family: 'lato', sans-serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
 }
 a {
     text-decoration: none;
     color: var(--purple);
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #474747;
 }
 .logo-link img{
     width: auto;
@@ -35,4 +54,13 @@ a#dropdownUser2 {
 }
 .menu-container nav a.active {
     border-bottom: 1px solid #EA118D;
+}
+#sidebars-container {
+    background: var(--gray2);
+    border-radius: 6px;
+}
+#sidebars-container ul li button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--gray3);
 }
