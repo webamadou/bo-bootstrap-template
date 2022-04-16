@@ -1,0 +1,38 @@
+:root {
+    --purple: #3F51B5;
+    --pink: #EA118D;
+    --gray1: #f3f3f3; 
+    --gray2: #E5E5E5; 
+}
+body{
+    font-family: 'lato', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: var(--purple);
+}
+.logo-link img{
+    width: auto;
+    height: 10vh;
+    max-height: 54px;
+}
+.header-container {
+    background: #f3f3f3;
+}
+a#dropdownUser2 {
+    background: #dedede;
+    padding: 0 1rem 0 1rem;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+.menu-container nav a {
+    display: inline-block;
+    margin: 0 0 0 0.9rem;
+    background: #fff;
+}
+.menu-container nav a.active {
+    border-bottom: 1px solid #EA118D;
+}

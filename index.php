@@ -4,28 +4,30 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container header-container">
-      <header class="blog-header py-3">
+    <div class="header-container">
+      <header class="container blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
-            <a class="link-secondary" href="#" aria-label="Search">
+            <a class="link-secondary logo-link" href="#">
               <img src="./assets/images/logo.png" alt="">
             </a>
           </div>
-          <div class="col-4 text-center">
-            <a class="blog-header-logo text-dark" href="#">Large</a>
-          </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
+          <div class="col-8 d-flex justify-content-end align-items-center">
             <div class="flex-shrink-0 dropdown">
               <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                <span>Administrator</span>
+                <img src="./assets/images/profil_placeholder.jpeg" alt="mdo" width="32" height="32" class="rounded-circle"> 
               </a>
               <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2" style="">
                 <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -38,10 +40,11 @@
           </div>
         </div>
       </header>
-
-      <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          <a class="p-2 link-secondary" href="#">World</a>
+    </div>
+    <div class="menu-container">
+      <div class="container nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-end">
+          <a class="p-2 link-secondary active" href="#">World</a>
           <a class="p-2 link-secondary" href="#">U.S.</a>
           <a class="p-2 link-secondary" href="#">Technology</a>
           <a class="p-2 link-secondary" href="#">Design</a>
