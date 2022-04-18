@@ -1,4 +1,11 @@
-
+:root {
+    --purple: #3F51B5;
+    --pink: #EA118D;
+    --gray1: #f3f3f3;
+    --gray2: #E5E5E5;
+    --gray3: #838383;
+    --gray4: #c4c4c4;
+}
 *:focus,
 button:focus, 
 .btn-check:focus+.btn, 
@@ -7,13 +14,15 @@ button:focus,
     outline: none;
     box-shadow: none;
 }
-:root {
-    --purple: #3F51B5;
-    --pink: #EA118D;
-    --gray1: #f3f3f3;
-    --gray2: #E5E5E5;
-    --gray3: #838383;
-    --gray4: #c4c4c4;
+.btn-primary {
+    color: #fff;
+    background-color: var(--purple);
+    border-color: #0a175b;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: var(--gray3);
+    border-color: #494949;
 }
 body{
     font-family: 'lato', sans-serif;
